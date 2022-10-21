@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "Ariva - Filter",
+  "version": "1.0",
+
+  "description": "Diese Erweiterung dient einer Filterung von Beiträgen bestimmter Nutzer.",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.ariva.de/forum/krieg-in-der-ukraine-*"],
+      "js": ["script.js"]
+    }
+  ]
+
+}
