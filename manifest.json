@@ -11,6 +11,12 @@
       "matches": ["https://www.ariva.de/forum/krieg-in-der-ukraine-*"],
       "js": ["script.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "arivafilter@fairplayground.info",
+      "update_url" : "https://github.com/TonyFord/arivafilter/manifest.json"
+    }
+  }
 
 }
